@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Composing Digital Media</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">  </script>
+</head>
+
+
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:70px;">I am John Designer</h1>
+    <p style="font-size:25px;">Integrating Writing and Design Portfolio</p>
+  </div>
+</div>
+
+
+<!--Accessibility considerations
+Opening links in a new tab or window can cause accessibility issues. Here are some reasons why: Links opening in a new tab can prove disorienting for people with low vision or are navigating via screen reader, especially when there is no warning. However, using iframe to package content within a modal also raises accessibility concerns-->
+
+<div class="container-fluid bg-w text-center">
+    <h1>Design Beginnings </h1><br>
+
+  <div class="row">
+    <div class="col-sm-4">
+        <h3>Design Fuego</h3>
+          <!--Target property opens link in new browser window  -->
+          <a href="" target="_blank">
+          <!-- Alternatively, you can embed an iframe in the modal window with link to website.-->
+         <div class="hover">
+       <img src="feugo.png" class="img-responsive" style="width:100%"alt="Image" >
+              </div>
+     </a>
+        <p>This first project really tested my ability to code. I really enjoyed learning how to insert images and change text for a website!</p>
+    </div>
+       <div class="col-sm-4">
+        <h3>Logo A/B/C</h3>
+          <!--These properties open anchored modal window. Find "#portfolioModal2" in modal content below, listed after </html>-->
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+          <!-- Use .jpg or .png files. Alternatively, you can embed an iframe in the modal window with link to pdf-->
+            <div class="hover">
+       <img src="logoabc.jpeg" class="img-responsive" style="width:100%"alt="Image" >
+              </div>
+     </a>
+        <p>Designing these logos made me think about who I am and how I want to be represented once I enter the job field.</p>
+    </div>
+
+    <div class="col-sm-4">
+        <h3>UX Testing Logo Project</h3>
+        <a class="https://docs.google.com/presentation/d/1Ueo7JStOV9rmqqbxYmDUwkfp7OaI_3a0MiIqkDvraEA/edit?slide=id.p#slide=id.p" target="_blank" href="">         
+          <div class="hover">
+       <img src="uxdesign.png" class="img-responsive" style="width:100%"alt="Image" >
+              </div>
+     </a>
+        <p>It was super intersting to see the difference in opinions on these three logos from different people. Especially because they were all in teh same age range and shared the same occupation as student. I liked conducting the research of this, and it helped me to create a better logo combining all of the elements from the three logos that stood out to the participants.</p>
+    </div>
+</div>
+
+ <div class="row">
+   <div class="col-sm-2">
+    </div>
+    
+  <div class="col-sm-4">
+        <h3>Cartoon Portrait</h3>
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <div class="hover">
+              <img src="cartoon.png"img-responsive" style="width:100%"alt="Image" >
+            </div>
+          </a>
+              <p>This was probably the most tedious project that I completed. If I were to redo it I would choose a different picture where I am not in a complicated pose.</p>
+  </div>
+
+  <div class="col-sm-4">
+        <h3>Good Design</h3>
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <div class="hover">
+               <img src="gooddesign1.png" class="img-responsive" style="width:100%"alt="Image">
+            </div>
+          </a>
+              <p>I really enjoyed this assignment. I thought it was fun to look at and find an example of what I think is good design. Additionally, I thought it was interesting to see what other students considered good design.</p>
+  </div>
+
+   <div class="col-sm-2">
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid bg-w text-left">
+     <h3 class="margin text-center">Course Goals</h3>
+        <br>
+
+  <div class="row">
+    <div class="col-sm-4">
+           <p><em>1. Consider the role of rhetoric, technology, and ethics in acts of making.</em></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    
+    <div class="col-sm-4">
+            <p><em>2. Leverage Design Principles.</em></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <div class="col-sm-4">
+             <p><em>3. Engage with others in a workshop environment.</em></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+<br>
+<br>
+
+  <div class="row">
+    <div class="col-sm-2">
+    </div>
+            
+    <div class="col-sm-4">
+              <p><em>4. Practice revision within and across media forms.</em></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+        
+    <div class="col-sm-4">
+              <p><em>5. Learn to present your work.</em></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+        
+    <div class="col-sm-2">
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid bg-b text-center">
+     <h1>Short Form</h1><br>
+   <div class="row">
+    <div class="col-sm-6">
+        <h3>Two-page Spread</h3>
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+         <div class="hover">
+       <img src="steve.jpeg" class="img-responsive" style="width:100%"alt="Image" >
+              </div>
+     </a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+     <div class="col-sm-6">
+        <h3>Infographic</h3>
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+         <div class="hover">
+       <img src="steve.jpeg" class="img-responsive" style="width:100%"alt="Image" >
+              </div>
+     </a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+   </div>
+
+  <div class="row">
+   <div class="col-sm-6">
+       <h3>Advertisement</h3>
+         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+        <div class="hover">
+      <img src="steve.jpeg" class="img-responsive" style="width:100%"alt="Image" >
+             </div>
+    </a>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+   </div>
+   <div class="col-sm-6">
+      <h3>Accessibile Design</h3>
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
+       <div class="hover">
+     <img src="steve.jpeg" class="img-responsive" style="width:100%"alt="Image" >
+            </div>
+   </a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+ </div>
+</div>
+
+
+    <div class="container-fluid bg-b text-left">
+      <h3 class="margin text-center">Course Goals</h3>
+         <br>
+ 
+   <div class="row">
+     <div class="col-sm-4">
+            <p><em>1. Consider the role of rhetoric, technology, and ethics in acts of making.</em></p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     </div>
+     
+     <div class="col-sm-4">
+             <p><em>2. Leverage Design Principles.</em></p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     </div>
+ 
+     <div class="col-sm-4">
+              <p><em>3. Engage with others in a workshop environment.</em></p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     </div>
+   </div>
+ <br>
+ <br>
+ 
+   <div class="row">
+     <div class="col-sm-2">
+     </div>
+             
+     <div class="col-sm-4">
+               <p><em>4. Practice revision within and across media forms.</em></p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     </div>
+         
+     <div class="col-sm-4">
+               <p><em>5. Learn to present your work.</em></p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     </div>
+         
+     <div class="col-sm-2">
+     </div>
+   </div>
+ </div>
+
+
+
+<div class="container-fluid bg-w text-center">
+  <h1>Long Form</h1><br>
+  <div class="row">
+    <div class="col-sm-4">
+        <h3>Ten-page Spread </h3>
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal11">
+         <div class="hover">
+       <img src="steve.jpeg" class="img-responsive" style="width:100%"alt="Image" >
+              </div>
+     </a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+     <div class="col-sm-4">
+        <h3>Client Project</h3>
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal12">
+         <div class="hover">
+       <img src="steve.jpeg" class="img-responsive" style="width:100%"alt="Image" >
+              </div>
+     </a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+     <div class="col-sm-4">
+        <h3>UX Design Branding Project</h3>
+           <!--Target property opens link in new browser window  -->
+           <a href="" target="_blank">
+            <!-- Alternatively, you can embed an iframe in the modal window with link to website.-->
+         <div class="hover">
+       <img src="steve.jpeg" class="img-responsive" style="width:100%"alt="Image" >
+              </div>
+     </a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid bg-w text-left">
+  <h3 class="margin text-center">Course Goals</h3>
+     <br>
+
+<div class="row">
+ <div class="col-sm-4">
+        <p><em>1. Consider the role of rhetoric, technology, and ethics in acts of making.</em></p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ </div>
+ 
+ <div class="col-sm-4">
+         <p><em>2. Leverage Design Principles.</em></p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ </div>
+
+ <div class="col-sm-4">
+          <p><em>3. Engage with others in a workshop environment.</em></p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ </div>
+</div>
+<br>
+<br>
+
+<div class="row">
+ <div class="col-sm-2">
+ </div>
+         
+ <div class="col-sm-4">
+           <p><em>4. Practice revision within and across media forms.</em></p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ </div>
+     
+ <div class="col-sm-4">
+           <p><em>5. Learn to present your work.</em></p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ </div>
+     
+ <div class="col-sm-2">
+ </div>
+</div>
+</div>
+
+
+
+
+  <br>
+  <br>
+
+<div class="container-fluid text-center">
+ <img src="steve.jpeg" class="center-large-image" alt="Steve" style="max-width:25%;max-height:25%;">
+    <p>generated by Pitt Fuego</p>
+    <p> “Why make a spark when you can light a fire?</p>
+</div>
+
+<br>
+<br>
+
+<!-- Stops video/audio from playing on modal close -->
+<script>
+  $(function(){
+  $("body").on('hidden.bs.modal', function (e) {
+  var $iframes = $(e.target).find("iframe");
+  $iframes.each(function(index, iframe){
+  $(iframe).attr("src", $(iframe).attr("src"));
+  });
+  });
+  });
+  </script>
+
+</body>
+   </html>
+
+
+    <!-- Modal 1 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="steve.jpeg" style="width:100%" alt="">
+
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 2 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body" style>
+                <img class="img-responsive" src="logoabc.jpeg" style="width:100%" alt="">
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="steve.jpeg" style="width:100%" alt="">
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 4-->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="cartoon.png" style="width:100%" alt="">
+
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+        <!-- Modal 5 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="goo" style="width:100%" alt="">
+
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 6 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="steve.jpeg" style="width:100%" alt="">
+
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 7 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="steve.jpeg" style="width:100%" alt="">
+
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 8 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="steve.jpeg" style="width:100%" alt="">
+
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- Modal 9 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="steve.jpeg" style="width:100%" alt="">
+
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+           <!-- Modal 10 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="steve.jpeg" style="width:100%" alt="">
+
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+           <!-- Modal 11 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="steve.jpeg" style="width:100%" alt="">
+
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Modal 12 -->
+<div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-lg">
+<div class="modal-content">
+<div class="close-modal" data-dismiss="modal">
+ <div class="lr">
+   <div class="rl"></div>
+ </div>
+</div>
+<div class="container">
+ <div class="row">
+   <div class="col-lg-8 mx-auto">
+     <div class="modal-body">
+       <img class="img-responsive" src="steve.jpeg" style="width:100%" alt="">
+
+       <button class="btn btn-primary" data-dismiss="modal" type="button">
+         <i class="fas fa-times"></i>
+         Close Project</button>
+     </div>
+   </div>
+ </div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- Modal 13 -->
+<div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-lg">
+<div class="modal-content">
+<div class="close-modal" data-dismiss="modal">
+<div class="lr">
+ <div class="rl"></div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+ <div class="col-lg-8 mx-auto">
+   <div class="modal-body">
+     <img class="img-responsive" src="steve.jpeg" style="width:100%" alt="">
+
+     <button class="btn btn-primary" data-dismiss="modal" type="button">
+       <i class="fas fa-times"></i>
+       Close Project</button>
+   </div>
+ </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- Modal 14 -->
+<div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-lg">
+<div class="modal-content">
+<div class="close-modal" data-dismiss="modal">
+<div class="lr">
+ <div class="rl"></div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+ <div class="col-lg-8 mx-auto">
+   <div class="modal-body">
+     <img class="img-responsive" src="steve.jpeg" style="width:100%" alt="">
+
+     <button class="btn btn-primary" data-dismiss="modal" type="button">
+       <i class="fas fa-times"></i>
+       Close Project</button>
+   </div>
+ </div>
+</div>
+</div>
+</div>
+</div>
+</div>
